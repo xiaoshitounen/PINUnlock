@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/root_layout">
+
+    <!--背景颜色-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pin_bg"
+        android:scaleType="fitXY"
+        />
+
+    <!--主要操作部分-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:id="@+id/liner_content"
+        >
+
+        <!--提示文本-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="你好"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textAlignment="center"
+
+            android:id="@+id/pin_unlock_text"
+            />
+
+        <!--输入文本-->
+        <EditText
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_edit"
+
+            android:cursorVisible="false"
+            android:lines="1"
+            android:maxLength="6"
+
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:inputType="textPassword"
+
+            android:id="@+id/pin_unlock_edit"
+            />
+
+        <!--重置按钮-->
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:text="忘记密码?"
+            android:textSize="14dp"
+            android:textColor="@color/colorPrimary"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:id="@+id/reset_btn"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

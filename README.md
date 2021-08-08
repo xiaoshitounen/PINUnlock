@@ -7,6 +7,6 @@
 
 - **难度：新手。**
 
-- **博客发布处：[Android项目3：PIN解锁](https://fanandjiu.com/Android%E9%A1%B9%E7%9B%AE3%EF%BC%9APIN%E8%A7%A3%E9%94%81.md/#more)**
+- **博客发布处：[Android项目3：PIN解锁](http://www.fanandjiu.com/article/54f3932c.html)**
 
 
